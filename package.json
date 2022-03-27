@@ -1,0 +1,27 @@
+{
+  "name": "fe_finder",
+  "version": "1.0.0",
+  "description": "HTML Parsing of serenesforest.net so I can look up fire emblem three houses stuff easily.",
+  "main": "lib/main.js",
+  "scripts": {
+    "start": "yarn build && node lib/main.js",
+    "build": "tsc",
+    "dev": "ts-node src/main.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "author": "kylemann16",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.10",
+    "node-fetch": "^3.2.3",
+    "yargs": "^17.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.23",
+    "@types/node-fetch": "^2.6.1",
+    "@types/yargs": "^17.0.10",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.3"
+  }
+}
